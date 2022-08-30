@@ -22,13 +22,13 @@ html {
 }
 
 .octocat {
-    max-width: 300px;
+    width: 333px;
     margin: 10px;
     border-bottom: 1px solid rgb(133, 133, 133);
 }
 
 .octocat > a > img {
-    max-width: 100%;
+    width: 100%;
     border: 1px solid rgb(133, 133, 133);
     border-radius: 0.2rem;
     margin: 0 5px 0 5px;
