@@ -1,7 +1,79 @@
-/* .octodex {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.octodex {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 810px;
-} */
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.octodex li {
+    list-style-type: none;
+}
+
+.octocat {
+    max-width: 300px;
+    margin: 10px;
+    border-bottom: 1px solid rgb(133, 133, 133);
+}
+
+.octocat > a > img {
+    max-width: 100%;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 0.2rem;
+    margin: 0 5px 0 5px;
+}
+
+.image-footer {
+   display: flex;
+   justify-content: space-between;
+   margin: 2px 0 2px 0;
+}
+
+.image-number {
+    color: rgb(133, 133, 133);
+}
+
+.image-number:before {
+    content: '\0023';
+}
+
+.image-caption {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-caption span {
+    color: rgb(133, 133, 133);
+    margin: 0 2px 0 2px;
+}
+
+.image-caption a {
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+}
+
+.authors {
+    padding-left: 2.5px;
+    vertical-align: baseline;
+}
+
+.authors img {
+    border-radius: 0.2rem;
+    width: 25px;
+    height: auto;
+    margin: 0;
+}
