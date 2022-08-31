@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
-root {
-    --primary-grey: rgb(160, 160, 160);
-}
-
 html {
     box-sizing: border-box;
 }
@@ -41,7 +37,7 @@ img {
 
 .octocat > a {
     display: inline-block;
-    border: 1px solid (rgb(133, 133, 133));
+    border: 1px solid rgb(133, 133, 133);
     border-radius: 5px;
     position: relative;
 }
