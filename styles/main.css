@@ -15,6 +15,7 @@ html {
     flex-wrap: wrap;
     flex-direction: row;
     max-width: 100%;
+    padding: 0;
 }
 
 .octodex li {
@@ -23,12 +24,14 @@ html {
 
 .octocat {
     width: 333px;
+    height: auto;
     margin: 10px;
     border-bottom: 1px solid rgb(133, 133, 133);
 }
 
 .octocat > a > img {
     width: 100%;
+    height: auto;
     border: 1px solid rgb(133, 133, 133);
     border-radius: 0.2rem;
     margin: 0 5px 0 5px;
@@ -58,12 +61,14 @@ html {
 .image-caption span {
     color: rgb(133, 133, 133);
     margin: 0 2px 0 2px;
+    padding-top: 3px;
 }
 
 .image-caption a {
     margin: 0;
     color: #000;
     text-decoration: none;
+    padding-top: 3px;
 }
 
 .authors {
